@@ -1,0 +1,74 @@
+
+.log{ 
+    width:390px;
+    height:10px; 
+    background:black; 
+    color:white; 
+        border-radius:10%; 
+    border: 5px solid white;
+    box-sizing:border-box; 
+    position:absolute; 
+    transform:translate(-50%,-50%); 
+}
+
+.log p{
+    margin:0; 
+    padding:0; 
+    font-weight:bold;
+}
+.log input[type="text"]
+{
+    margin-bottom:20px; 
+    border:none; 
+    border-bottom:2px solid white; 
+    background:transparent; 
+    outline:none; height:2px;
+    color:white; 
+    font-size:2px;
+}
+.log input[type="password"]
+{
+    margin-bottom:20px; 
+    border:none; 
+    border-bottom:2px solid white; 
+    background:transparent; 
+    outline:none; 
+    height:10px;
+    color:white; 
+    font-size:2px;
+}
+.log input{
+    border-bottom:20px; 
+    width:100%;
+}
+.log input[type="submit"]
+{
+    border:none; 
+    background:red; 
+    outline:none; 
+    height:10px;
+    color:white; 
+    font-size:2px; 
+    border-radius:20px;
+}
+.log input[type="button"]
+{
+    border:none; 
+    background:red; 
+    outline:none; 
+    height:10px;
+    color:white; 
+    font-size:8px; 
+    border-radius:20px;
+}
+.log a
+{
+    border:none; 
+    background:red; 
+    outline:none; 
+    height:10px; 
+    color:white; 
+    font-size:2px; 
+    border-radius:0px;
+    text-decoration:none;
+}
